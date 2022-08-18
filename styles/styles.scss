@@ -1,46 +1,28 @@
 .container{
-    padding: 50px 100px;
+    margin: 0px 100px;
 }
 img{
-    height: 200px!important;
-}
-.sliderText{
-    margin: 0px;
-}
-.sliderHead{
-    margin: 10px 0px;
-    font-weight: 700;
+    width: 100%;
 }
 body{
     margin: 0px;
     color: black;
 }
-a{
-    text-decoration:none!important;
-    color: black!important;
-    
-}
-h1{
-    padding: 0px 0px 20px 30px;
-    font-weight: 700!important;
-}
-
-
 //tablet landscape
 @media screen and (min-width: 960px) and (max-width:1199px){  
     .container{
-        padding: 50px 75px;
+        margin: 70px 75px;
     }
 }
 //tablet portrait
 @media screen and (min-width:640px) and (max-width:959px){ 
     .container{
-        padding: 25px 50px;
+        margin: 25px 50px;
     }
 }
 //mobile
 @media screen and (max-width: 639px)  {  
     .container{
-        padding: 15px 20px;
+        margin: 15px 50px;
     }
 }
