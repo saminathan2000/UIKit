@@ -1,28 +1,45 @@
-.container {
-  margin: 0px 100px;
-}
-
-img {
-  width: 100%;
+* {
+  box-sizing: border-box;
 }
 
 body {
-  margin: 0px;
-  color: black;
+  color: #000;
 }
 
+.container {
+  width: 1140px;
+  margin: 0px auto;
+}
+
+img {
+  width: 100% !important;
+  height: 40% !important;
+}
+
+a {
+  display: block;
+}
+
+@media screen and (min-width: 1200px) {
+  .prevButton > *, .nextButton > * {
+    width: 30;
+  }
+  section {
+    margin-top: 40px;
+  }
+}
 @media screen and (min-width: 960px) and (max-width: 1199px) {
   .container {
-    margin: 70px 75px;
+    width: 936px;
   }
 }
 @media screen and (min-width: 640px) and (max-width: 959px) {
   .container {
-    margin: 25px 50px;
+    width: 720px;
   }
 }
 @media screen and (max-width: 639px) {
   .container {
-    margin: 15px 50px;
+    width: 80%;
   }
 }/*# sourceMappingURL=styles.css.map */
