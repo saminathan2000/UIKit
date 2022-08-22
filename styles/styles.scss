@@ -1,45 +1,10 @@
-//Desktop
 *{
     box-sizing:border-box
 }
-body{
-    color: #000;
-}
-.container{
-    width: 1140px;
-    margin:0px auto;
-}
-img{
-    width: 100% !important;
-    height: 40% !important;;
-}
-a{
-    display: block;
-}
+
 @media  screen and (min-width:1200px) {
     .prevButton>*,.nextButton>*{
         width: 30 ;
     }
-    section{
-        margin-top: 40px;
-    }
-    
 }
-//tablet landscape
-@media screen and (min-width: 960px) and (max-width:1199px){  
-    .container{
-        width: 936px;
-    }
-}
-//tablet portrait
-@media screen and (min-width:640px) and (max-width:959px){ 
-    .container{
-        width: 720px;
-    }
-}
-//mobile
-@media screen and (max-width: 639px)  {  
-    .container{
-        width: 80%;
-    }
-}
+
